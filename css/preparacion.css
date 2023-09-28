@@ -1,0 +1,121 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(77, 223, 77);
+    width: center;
+    background-size: cover;
+    height: 95vh;
+    font-size: cover;
+    padding:0;
+    margin:0;
+    background-image:url(https://img.freepik.com/vector-premium/patron-costuras-rodaja-limon-sobre-fondo-claro_631222-32.jpg);
+    
+    
+}
+h1{
+    text-align: center;
+    background-color: rgb(255, 166, 0) ; 
+    color: rgb(0, 0, 0);    
+    padding:20px ;
+}
+
+nav ul{
+    background-color:rgb(250, 198, 54) ; 
+    width:97% ;
+    list-style-type:none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding:10px;
+    width:150px;
+}
+nav li:hover{
+    background-color: rgb(141, 247, 109);
+}
+
+.contenido{
+    display: flex;
+    margin:60px;
+}
+.articulos{
+    width:80%;
+    border-right:3px solid black;
+}
+.secciones{
+    display:flex;
+    align-items:center;
+    padding:40px;
+}
+
+.pasos{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    margin-left: 30px;
+}
+.texto{
+    background-color: rgb(252, 255, 66);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 17px;
+    padding: 13px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ingredientes{
+    background-color: rgb(252, 255, 54);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 10vh;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:590px;
+    height:390px;
+    border-radius:10%;
+    object-fit:cover ;
+}
+
+.img-tarro img{
+    width:315px;
+    height:350px;
+    border-radius:10%;
+    object-fit:cover;
+}
+.img-frente-1 img{
+    width:200px;
+    height:310px;
+    border-radius:10%;
+    object-fit:cover ;
+}
+.imagen-2 img{
+    width:400px;
+    height:450px;
+    border-radius:10%;
+    object-fit:cover ;
+}
+.imagen-3 img{
+    width:660px;
+    height:510px;
+    border-radius:10%;
+}
+.imagen-4 img{
+    width:660px;
+    height:510px;
+    border-radius:10%;
+}
+.imagen-5 img{
+    width:500px;
+    height:510px;
+    border-radius:10%;
+}
+.imagen-9 img{
+    width:500px;
+    height:410px;
+    border-radius:10%;
+}
